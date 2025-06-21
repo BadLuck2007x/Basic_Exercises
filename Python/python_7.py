@@ -1,4 +1,4 @@
-#  7. Input a number and check if the number is a prime or composite number.abs
+#  7. Input a number and check if the number is a prime or composite number.
 
 
 def Is_prime(num):

@@ -4,6 +4,6 @@
 numbers=input("Enter the list numbers(use wide space for insert next element): ").split()
 for i,j in enumerate(numbers):
     numbers[i]=int(j)
-print(f"The Max value is:{max(numbers)}")
-print(f"The Min value is:{min(numbers)}")
-
+numbers.sort()
+print(f"The Max value is:{numbers[len(numbers)-1]}")
+print(f"The Min value is:{numbers[0]}")

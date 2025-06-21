@@ -5,5 +5,7 @@ num2=int(input("Enter second number: "))
 
 if(num1==num2):
     print("Both numbers are same")
+elif num1>num2:
+    print(f"The larger number:{num1}\nThe smaller number is:{num2}")
 else:
-    print(f"The larger number:{max(num1,num2)}\nThe smaller number is:{min(num1,num2)}")
+    print(f"The larger number:{num2}\nThe smaller number is:{num1}")

@@ -8,7 +8,7 @@ def Fibonacci(n):
         sum=first+second
         first=second
         second=sum
-        print(sum)
+        print(sum,end="  ")
 
 num =int(input("Enter the number of Fibonacci:"))
 if num>1:

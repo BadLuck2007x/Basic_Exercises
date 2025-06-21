@@ -1,4 +1,4 @@
-# # #  10.  Count and display the number of vowels, consonants, uppercase, lowercase characters in string.
+# 10.  Count and display the number of vowels, consonants, uppercase, lowercase characters in string.
 
 
 def Count_Alpha(string):
