@@ -1,6 +1,6 @@
 #  14. Input a list/tuple of elements, search for a given element in the list/tuple.
 
-numbers=input("Enter the list numbers(use wide space for insert next element): ").split()
+elements=input("Enter the list numbers(use wide space for insert next element): ").split()
 
 search_item = input("Enter the element to search: ")
 
