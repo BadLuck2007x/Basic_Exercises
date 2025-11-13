@@ -1,6 +1,6 @@
 #   15.Create a dictionary with the roll number, name and marks of n students in a class and display the names of students who have marks above 75.
 
-Students={ }
+Students=dict()
 Subjects=["Bengali","English","Math","Physics","Chemistry","Computer Science"]
 
 data=int(input("Enter the number of Student: "))
